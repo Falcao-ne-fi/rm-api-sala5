@@ -12,3 +12,8 @@ body{
   background-attachment: fixed;
 }
 
+@media (width <= 1000px){
+  body{
+    background-image: url('../public/bgMobile.jpg');
+  }
+}
