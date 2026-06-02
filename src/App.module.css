@@ -1,7 +1,23 @@
 *{
-    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .logo{
     width: 400px;
     height: auto;
+}
+.contents{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 100px;
+}
+.cards{
+    display: flex;
+    background-color: rgb(38, 66, 66);
+    flex-direction: column;
+    width: 23vw;
+    color: aliceblue;
 }
